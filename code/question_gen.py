@@ -1369,7 +1369,7 @@ def main():
         print('please choose one option. either -j for json extraction or -q for question generation')
         exit()
     if args.extract_json:
-        gen_disease_json(report_path='/home/xinyue/dataset/mimic_reports', save=False)  # generate keyInfo data
+        gen_disease_json(report_path='/home/xinyue/dataset/mimic_reports', save=True)  # generate keyInfo data
     if args.gen_question:
         question_gen()  # generate question csv
 
