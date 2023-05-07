@@ -1,5 +1,6 @@
 # MIMIC-VQA
-This is the code for generating MIMIC-VQA dataset
+MIMIC-VQA is a large-scale dataset for visual question answering in medical chest x-ray images. This repository provides the code for generating MIMIC-VQA dataset from MIMIC-CXR database.
+
 
 ## How to use
 1. Enter the 'code' directory
